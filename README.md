@@ -6,4 +6,4 @@ This package effectively does not export anything, since lemmas are only visible
 
 ## Contact
 
-* http://djalbat.com
+* https://djalbat.com
