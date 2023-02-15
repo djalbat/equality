@@ -1,0 +1,25 @@
+Variable x
+Variable y
+Variable z
+
+Lemma (EqualityIsReflexive)
+  x = x
+  Proof
+    x = x
+
+Lemma (EqualityIsSymmetric)
+  Suppose
+    x = y
+  Then
+    y = x
+  Proof
+    y = x
+
+Lemma (EqualityIsTransitive)
+  Suppose
+    x = y
+    y = z
+  Then
+    x = z
+  Proof
+    x = z
