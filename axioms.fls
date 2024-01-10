@@ -1,0 +1,14 @@
+Variable x
+Variable y
+
+Axiom (UnequaInfersNotEqual)
+  Suppose
+    x ≠ y
+  Then
+    ¬(x = y)
+
+Axiom (NotEquaInfersUnequal)
+  Suppose
+    ¬(x = y)
+  Then
+    x ≠ y
