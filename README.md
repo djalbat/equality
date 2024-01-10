@@ -2,7 +2,8 @@
 
 Equality for [Occam](https://occam.science).
 
-This package does not export anything, since lemmas are only visible within their own package or project. It simply shows that the verifier's equational system is capable of proving that equality is reflexive, symmetric and transitive.
+This package includes private lemmas in order to demonstrate that the verifier's equational system is capable of proving that equality is reflexive, symmetric and transitive.
+Inequality is also defined with axioms to enabe its equivalence to the negation of equality.
 
 ## Contact
 
