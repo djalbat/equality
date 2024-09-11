@@ -23,3 +23,8 @@ Lemma (EqualityIsTransitive)
     x = z
   Proof
     x = z
+
+Lemma (BracketsAreIgnored)
+  x = (x)
+  Proof
+    x = (x)
