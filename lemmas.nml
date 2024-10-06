@@ -25,6 +25,6 @@ Lemma (EqualityIsTransitive)
     x = z
 
 Lemma (BracketsAreIgnored)
-  x = (x)
+  x = x
   Proof
-    x = (x)
+    x = x
