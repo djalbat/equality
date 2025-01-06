@@ -8,3 +8,4 @@ Inequality is also defined with axioms to enabe its equivalence to the negation 
 ## Contact
 
 * https://djalbat.com
+
