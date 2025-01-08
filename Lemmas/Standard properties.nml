@@ -24,7 +24,3 @@ Lemma (EqualityIsTransitive)
   Proof
     x = z
 
-Lemma (BracketsAreIgnored)
-  x = x
-  Proof
-    x = x
