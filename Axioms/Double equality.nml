@@ -1,0 +1,22 @@
+Variable x
+Variable y
+Variable z
+
+Axiom (DoubleEqualityInfersConjunctionOfEqualities)
+  Suppose
+    x = y = x
+  Then
+    (x = y) ∧ (y = z)
+
+Axiom (ConjunctionOfEqualitiesInfersDoubleEquality)
+  Suppose
+    (x = y) ∧ (y = z)
+  Then
+    x = y = x
+
+Axiom (TwoEqualitiesInferDoubleEquality)
+  Suppose
+    x = y
+    y = z
+  Then
+    x = y = x
