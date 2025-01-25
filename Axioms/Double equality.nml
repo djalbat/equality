@@ -14,7 +14,7 @@ Axiom (ConjunctionOfEqualitiesInfersDoubleEquality)
   Then
     x = y = x
 
-Axiom (TwoEqualitiesInferDoubleEquality)
+Axiom (TwoEqualitiesInferDoubleEquality,DoubleEquality)
   Suppose
     x = y
     y = z
