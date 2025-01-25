@@ -19,4 +19,4 @@ Axiom (TwoEqualitiesInferDoubleEquality)
     x = y
     y = z
   Then
-    x = y = x
+    x = y = z
