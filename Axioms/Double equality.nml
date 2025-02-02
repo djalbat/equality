@@ -2,21 +2,21 @@ Variable x
 Variable y
 Variable z
 
-Axiom (DoubleEqualityInfersConjunctionOfEqualities)
-  Suppose
-    x = y = x
-  Then
-    (x = y) ∧ (y = z)
-
-Axiom (ConjunctionOfEqualitiesInfersDoubleEquality)
-  Suppose
-    (x = y) ∧ (y = z)
-  Then
-    x = y = x
-
-Axiom (TwoEqualitiesInferDoubleEquality,DoubleEquality)
+Axiom (DoubleEqualityIntroduction)
   Suppose
     x = y
     y = z
   Then
     x = y = z
+
+Axiom (DoubleEqualityLeftElimination)
+  Suppose
+    x = y = z
+  Then
+    y = z
+
+Axiom (DoubleEqualityRightElimination)
+  Suppose
+    x = y = z
+  Then
+    x = y
