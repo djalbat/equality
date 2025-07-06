@@ -23,4 +23,3 @@ Lemma (EqualityIsTransitive)
     x = z
   Proof
     x = z
-
