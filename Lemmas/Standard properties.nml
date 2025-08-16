@@ -2,12 +2,12 @@ Variable x
 Variable y
 Variable z
 
-Lemma (EqualityIsReflexive)
+Lemma (Reflexivity)
   x = x
   Proof
     x = x
 
-Lemma (EqualityIsSymmetric)
+Lemma (Commutativity)
   Suppose
     x = y
   Then
@@ -15,7 +15,7 @@ Lemma (EqualityIsSymmetric)
   Proof
     y = x
 
-Lemma (EqualityIsTransitive)
+Lemma (Associativity)
   Suppose
     x = y
     y = z
