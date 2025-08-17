@@ -7,7 +7,7 @@ Lemma (Reflexivity)
   Proof
     x = x
 
-Lemma (Commutativity)
+Lemma (Symmetry)
   Suppose
     x = y
   Then
@@ -15,7 +15,7 @@ Lemma (Commutativity)
   Proof
     y = x
 
-Lemma (Associativity)
+Lemma (Transitivity)
   Suppose
     x = y
     y = z
