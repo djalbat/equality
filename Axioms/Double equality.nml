@@ -9,13 +9,13 @@ Axiom (DoubleEqualityIntroduction)
   Then
     x = y = z
 
-Axiom (DoubleEqualityLeftElimination)
+Axiom (DoubleEqualityRightElimination)
   Suppose
     x = y = z
   Then
     y = z
 
-Axiom (DoubleEqualityRightElimination)
+Axiom (DoubleEqualityLeftElimination)
   Suppose
     x = y = z
   Then
