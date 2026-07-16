@@ -1,8 +1,8 @@
 
 
-            statement  ::=  argument "≠" argument
+            statement  ::=  argument ( ( "≠" argument )
 
-                         |  argument "=" argument "=" argument 
+                                     | ( "=" argument "=" argument ) )
  
                          ;
 
