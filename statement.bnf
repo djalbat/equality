@@ -1,8 +1,4 @@
 
 
-            statement  ::=  argument ( ( "≠" argument )
-
-                                     | ( "=" argument "=" argument ) )
- 
-                         ;
+            statement  ::=  argument "=" argument "=" argument ;
 

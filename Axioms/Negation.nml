@@ -3,7 +3,7 @@ Variable y
 
 Axiom (UnequaInfersNotEqual)
   Suppose
-    x ≠ y
+    x != y
   Then
     ¬(x = y)
 
@@ -11,4 +11,4 @@ Axiom (NotEquaInfersUnequal)
   Suppose
     ¬(x = y)
   Then
-    x ≠ y
+    x != y
