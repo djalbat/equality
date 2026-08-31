@@ -2,12 +2,12 @@ Variable x
 Variable y
 Variable z
 
-Lemma (Reflexivity)
+Lemma
   x = x
   Proof
     x = x
 
-Lemma (Symmetry)
+Lemma
   Suppose
     x = y
   Then
@@ -15,7 +15,7 @@ Lemma (Symmetry)
   Proof
     y = x
 
-Lemma (Transitivity)
+Lemma
   Suppose
     x = y
     y = z
